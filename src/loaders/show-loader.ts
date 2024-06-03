@@ -7,7 +7,7 @@ const showLoader = async ({
   const { showId } = params;
 
   const response = await fetch(
-    `${import.meta.env.VITE_API_URL}/shows/${showId}`,
+    `${import.meta.env.VITE_API_URL}/shows/${showId}?embed[]=episodes&embed[]=cast`,
   );
 
   if (response.status === 404) {
