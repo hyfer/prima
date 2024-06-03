@@ -19,6 +19,14 @@ export default defineConfig({
         find: "@custom-types",
         replacement: path.resolve(__dirname, "./src/types"),
       },
+      {
+        find: "@components",
+        replacement: path.resolve(__dirname, "./src/components"),
+      },
+      {
+        find: "@hooks",
+        replacement: path.resolve(__dirname, "./src/hooks"),
+      },
     ],
   },
 });

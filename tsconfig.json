@@ -23,7 +23,9 @@
     "paths": {
       "@utils/*": ["./src/utils/*"],
       "@assets/*": ["./src/assets/*"],
-      "@internal-types/*": ["src/types/*"]
+      "@internal-types/*": ["src/types/*"],
+      "@components/*": ["./src/components/*"],
+      "@hooks/*": ["./src/hooks/*"]
     }
   },
   "include": ["src"],
