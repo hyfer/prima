@@ -51,4 +51,4 @@ Would've been nice to add a dark/light mode toggle.
 
 Update response interfaces to match 1:1 with the responses from the api. This would help eliminate the remaining edge cases while displaying show data.
 
-The 404 didn't get any love.
+The 404 page didn't get any love.
