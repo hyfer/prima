@@ -2,10 +2,20 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        background: {
+          "0%, 100%": { "background-position": "0% 50%" },
+          "50%": { "background-position": "100% 50%" },
+        },
+      },
+      animation: {
+        background: "background 10s ease-in-out infinite",
+      },
+    },
     colors: {
       transparent: "transparent",
-      black: "#242424",
+      black: "#171313",
       white: "#f5f5f5",
       turquoise: {
         50: "#effefb",
