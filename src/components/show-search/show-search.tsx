@@ -68,6 +68,7 @@ const ShowSearch = () => {
         noOptionsMessage: () => classes.noOptionsMessage,
       }}
       components={{ DropdownIndicator, LoadingMessage }}
+      noOptionsMessage={() => "No results"}
       captureMenuScroll={false}
       isLoading={isLoading}
       onInputChange={onInputChange}
